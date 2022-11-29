@@ -13,4 +13,13 @@
 
 
 
-fn main() {}
+fn main() {
+    let mut count = 0;
+    loop {
+        count = count + 1;
+        println!("{}", count);
+        if count == 4 {
+            break;
+        }
+    }
+}
